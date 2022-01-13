@@ -12,18 +12,17 @@ sudo cp -v /home/x2/Pictures/duqu-unkown-code.png /usr/share/backgrounds/mate/de
 
 alias al alias
 alias cl clear
-alias cod code
-alias codi code
+
+
 alias fs funcsave
 alias l ' ls'
 alias m mpv
 alias md ' md5'
 alias md5 ' md5sum'
-alias pg 'echo "PassGEN" ; passGenBashScript.sh'
+
 alias si 'sudo -i'
 alias yi ' yay -S'
 alias ys ' yay -Ss'
-alias yta 'youtube-dl -f 249'
 
 
 alias yi ' yay -S'
@@ -42,10 +41,10 @@ alias ys ' yay -Ss'
 
 
 alias al alias
-alias bw 'bitwarden-desktop '
-alias ccx 'cd ~/X ; cat BLPASS |   tr -d [=-=]  | tr -d  [:space:] | xclip -selection clipboard && sleep 30 && echo NULL | xclip -selection clipboard '
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>    tr -d [=-=]  | tr -d  [:space:] | xclip -selection clipboard && sleep 30 && echo NULL | xclip -selection clipboard '
 alias cl clear
-alias ed 'eddie-ui '
+
 alias fs funcsave
 alias m mpv
 alias mr 'marco --replace'
@@ -53,3 +52,44 @@ alias si 'sudo -i'
 alias t terminator
 alias yi 'yay -S '
 alias ys 'yay -Ss '
+
+
+
+NEED to add quotes or script this BAK ls b4 restoring
+
+alias 5 md
+alias al alias
+
+alias cat bat
+
+alias cdq ' cdw'
+alias cdw 'echo ; echo "**********************"  ; cd ~/Workspace/PHP/ ; pwd ; echo "**********************" ; echo  '
+
+alias e 'echo -e'
+
+alias fish_key_reader /usr/bin/fish_key_reader
+alias fs funcsave
+alias g 'grep -i'
+alias i 'paru -S'
+alias l 'e ;  echo "*********************************"; echo "***exa -F -l --icons --changed***" ; echo "*********************************" ; e  ; exa -F -l --icons --changed'
+alias ls 'e ;  echo "***exa -F -l --icons --changed***" ; e ;  exa -F -l --icons --changed'
+alias m5 md
+alias md md5sum
+alias md5 md
+alias mr 'mrcode '
+alias sl ls
+
+alias ss 'mate-screenshot --interactive '
+
+alias sudo doas
+
+
+alias wg 'wget -v'
+
+
+alias yi 'paru -S '
+alias ys 'paru -Ss'
+alias yt ytfzf
+alias yu lsparu
+alias yz paruz
+
