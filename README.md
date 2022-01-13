@@ -14,3 +14,5 @@ cp -v MEDIA/root/.config/fish/functions /root/.config/fish/functions
 cp -v ~/.config/fish/functions ~/.config/fish/functions
 
 Even better, learn to sync the spefic folders. 
+
+
